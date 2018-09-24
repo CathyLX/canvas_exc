@@ -102,6 +102,7 @@ let windmill = {
 		drawTriangle(ctx,-55,32,0,6,-5,-3,'fill', this.color);
 		drawTriangle(ctx,-5,-3,0,-60,5,-3,'fill', this.color);
 		drawTriangle(ctx,5,-3,55,32,0,6,'fill', this.color);
+		drawTriangle(ctx,5,-3,-5,-3,0,6,'fill', this.color);
 		ctx.restore();
 	}
 }
